@@ -1,0 +1,89 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1732882879130178, "dur":1041, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732882879131230, "dur":53, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732882879131308, "dur":168, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732882879131485, "dur":2204, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732882879133691, "dur":123043, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732882879256808, "dur":508, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1732882879131367, "dur":2328, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732882879133697, "dur":414, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732882879134334, "dur":123, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/marco/TEST-MULTI/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732882879134458, "dur":178, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/marco/TEST-MULTI/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732882879134637, "dur":272, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/marco/TEST-MULTI/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732882879134929, "dur":168, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/marco/TEST-MULTI/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1732882879134146, "dur":991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/LinuxPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1732882879135331, "dur":95, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1732882879135482, "dur":120892, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1732882879256607, "dur":87, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1732882879131432, "dur":2273, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732882879133707, "dur":203, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732882879133911, "dur":127, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732882879134038, "dur":76, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1732882879134404, "dur":144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":2, "ts":1732882879134572, "dur":290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/level4.resS" }}
+,{ "pid":12345, "tid":2, "ts":1732882879134880, "dur":3659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1732882879138553, "dur":77, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":2, "ts":1732882879138664, "dur":8772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1732882879147439, "dur":109284, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732882879131447, "dur":2268, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732882879133717, "dur":316, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732882879134033, "dur":80, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1732882879134160, "dur":72, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/marco/Documents/Resultado/resultado_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1732882879134491, "dur":294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/level8.resS" }}
+,{ "pid":12345, "tid":3, "ts":1732882879134806, "dur":278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/level2.resS" }}
+,{ "pid":12345, "tid":3, "ts":1732882879135096, "dur":2881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/sharedassets8.resource" }}
+,{ "pid":12345, "tid":3, "ts":1732882879137989, "dur":1498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1732882879139549, "dur":68, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":3, "ts":1732882879140017, "dur":116732, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732882879131425, "dur":2275, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732882879133701, "dur":196, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732882879133897, "dur":145, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732882879134042, "dur":76, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1732882879135421, "dur":106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/level5" }}
+,{ "pid":12345, "tid":4, "ts":1732882879135538, "dur":56, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":4, "ts":1732882879135608, "dur":1799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":4, "ts":1732882879137419, "dur":79, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/level7" }}
+,{ "pid":12345, "tid":4, "ts":1732882879137509, "dur":234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/level6.resS" }}
+,{ "pid":12345, "tid":4, "ts":1732882879137754, "dur":1218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1732882879138985, "dur":1022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1732882879140014, "dur":116732, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732882879131438, "dur":2273, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732882879133712, "dur":223, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732882879133935, "dur":182, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1732882879134671, "dur":284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/level7.resS" }}
+,{ "pid":12345, "tid":5, "ts":1732882879134977, "dur":72, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/level3" }}
+,{ "pid":12345, "tid":5, "ts":1732882879135061, "dur":923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1732882879135995, "dur":1937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1732882879137945, "dur":67, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1732882879138022, "dur":136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1732882879138178, "dur":1888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1732882879140068, "dur":116658, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732882879131506, "dur":2217, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732882879133724, "dur":258, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732882879133983, "dur":130, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1732882879134735, "dur":83, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/level6" }}
+,{ "pid":12345, "tid":6, "ts":1732882879134829, "dur":94, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1732882879134935, "dur":340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1732882879135287, "dur":4742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":6, "ts":1732882879140030, "dur":116690, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732882879131527, "dur":2200, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732882879133727, "dur":197, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732882879133924, "dur":192, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1732882879134129, "dur":60, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /home/marco/Documents/Resultado/resultado_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1732882879134587, "dur":115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/level8" }}
+,{ "pid":12345, "tid":7, "ts":1732882879134712, "dur":81, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/level4" }}
+,{ "pid":12345, "tid":7, "ts":1732882879134821, "dur":124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1732882879134957, "dur":174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1732882879135140, "dur":78, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1732882879135228, "dur":6839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/sharedassets7.resource" }}
+,{ "pid":12345, "tid":7, "ts":1732882879142069, "dur":114646, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732882879131479, "dur":2241, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732882879133721, "dur":244, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732882879133965, "dur":153, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1732882879134328, "dur":1513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/sharedassets6.resource" }}
+,{ "pid":12345, "tid":8, "ts":1732882879135854, "dur":693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1732882879136561, "dur":93, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":8, "ts":1732882879136665, "dur":4021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/marco/Documents/Resultado/resultado_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":8, "ts":1732882879140688, "dur":116041, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1732882879258071, "dur":54, "ph":"X", "name": "ProfilerWriteOutput" }
+,

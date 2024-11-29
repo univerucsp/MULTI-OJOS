@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/CalibrateGame.unity
+    guid: c0a5635084df82c44af3f1757ae25116
+  - enabled: 1
+    path: Assets/Scenes/Juego.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/ScoreScene.unity
+    guid: 211d0c7dd6e37484083613fa55309c52
+  - enabled: 1
+    path: Assets/Scenes/TutorialGame.unity
+    guid: 6eb95132a4de75b3a8cfdece070bc1bc
+  - enabled: 1
+    path: Assets/Scenes/TutorialMenu.unity
+    guid: d54b0da70e1992683a177dc05d0fe3ed
+  - enabled: 1
+    path: Assets/Scenes/TutorialJOIN.unity
+    guid: bd9ae9c9ccb62e3ff886d653ceae44a6
+  - enabled: 1
+    path: Assets/Scenes/TutorialPLAYER1.unity
+    guid: c1b38230de81fe338bf2f0df1b72eb6a
+  - enabled: 1
+    path: Assets/Scenes/TutorialPLAYER2.unity
+    guid: fd3dea04113817f819408b95c64e44a2
+  m_configObjects: {}
